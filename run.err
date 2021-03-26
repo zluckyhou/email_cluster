@@ -1,0 +1,3262 @@
+/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python: can't open file 'get_email_imap.py': [Errno 1] Operation not permitted
+/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python: can't open file 'get_email_imap.py': [Errno 1] Operation not permitted
+/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python: can't open file 'get_email_imap.py': [Errno 1] Operation not permitted
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python: can't open file 'get_email_imap.py': [Errno 1] Operation not permitted
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python: can't open file 'get_email_imap.py': [Errno 1] Operation not permitted
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python: can't open file 'get_email_imap.py': [Errno 1] Operation not permitted
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python: can't open file 'get_email_imap.py': [Errno 1] Operation not permitted
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python: can't open file 'get_email_imap.py': [Errno 1] Operation not permitted
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python: can't open file 'get_email_imap.py': [Errno 1] Operation not permitted
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python: can't open file 'get_email_imap.py': [Errno 1] Operation not permitted
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python: can't open file 'get_email_imap.py': [Errno 1] Operation not permitted
+/Users/taptap/anaconda3/bin/python3: can't open file 'get_email_imap.py': [Errno 1] Operation not permitted
+/Users/taptap/anaconda3/bin/python3: can't open file 'get_email_imap.py': [Errno 1] Operation not permitted
+/Users/taptap/anaconda3/bin/python3: can't open file 'get_email_imap.py': [Errno 1] Operation not permitted
+/Users/taptap/anaconda3/bin/python3: can't open file 'get_email_imap.py': [Errno 1] Operation not permitted
+/Users/taptap/anaconda3/bin/python3: can't open file 'get_email_imap.py': [Errno 1] Operation not permitted
+/Users/taptap/anaconda3/bin/python3: can't open file 'get_email_imap.py': [Errno 2] No such file or directory
+/Users/taptap/anaconda3/bin/python3: can't open file 'get_email_imap.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "get_email_imap.py", line 3, in <module>
+    import dateutil.parser
+ModuleNotFoundError: No module named 'dateutil'
+Traceback (most recent call last):
+  File "get_email_imap.py", line 121, in <module>
+    email_content = load_email((username, password, 1))
+  File "get_email_imap.py", line 85, in load_email
+    conn = login_email(username, password)
+  File "get_email_imap.py", line 13, in login_email
+    conn = imaplib.IMAP4_SSL(port='993', host='imap.exmail.qq.com')
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1288, in __init__
+    IMAP4.__init__(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 201, in __init__
+    self._connect()
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 243, in _connect
+    self.welcome = self._get_response()
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1047, in _get_response
+    resp = self._get_line()
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1151, in _get_line
+    raise self.abort('socket error: EOF')
+imaplib.abort: socket error: EOF
+Traceback (most recent call last):
+  File "get_email_imap.py", line 123, in <module>
+    email_content = load_email((username, password, 1))
+  File "get_email_imap.py", line 85, in load_email
+    conn = login_email(username, password)
+  File "get_email_imap.py", line 13, in login_email
+    conn = imaplib.IMAP4_SSL(port='993', host='imap.exmail.qq.com')
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1288, in __init__
+    IMAP4.__init__(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 198, in __init__
+    self.open(host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1301, in open
+    IMAP4.open(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 299, in open
+    self.sock = self._create_socket()
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1291, in _create_socket
+    sock = IMAP4._create_socket(self)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 289, in _create_socket
+    return socket.create_connection((host, self.port))
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "get_email_imap.py", line 123, in <module>
+    email_content = load_email((username, password, 2))
+  File "get_email_imap.py", line 85, in load_email
+    conn = login_email(username, password)
+  File "get_email_imap.py", line 13, in login_email
+    conn = imaplib.IMAP4_SSL(port='993', host='imap.exmail.qq.com')
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1288, in __init__
+    IMAP4.__init__(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 198, in __init__
+    self.open(host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1301, in open
+    IMAP4.open(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 299, in open
+    self.sock = self._create_socket()
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1291, in _create_socket
+    sock = IMAP4._create_socket(self)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 289, in _create_socket
+    return socket.create_connection((host, self.port))
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "get_email_imap.py", line 123, in <module>
+    email_content = load_email((username, password, 1))
+  File "get_email_imap.py", line 85, in load_email
+    conn = login_email(username, password)
+  File "get_email_imap.py", line 13, in login_email
+    conn = imaplib.IMAP4_SSL(port='993', host='imap.exmail.qq.com')
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1288, in __init__
+    IMAP4.__init__(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 198, in __init__
+    self.open(host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1301, in open
+    IMAP4.open(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 299, in open
+    self.sock = self._create_socket()
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1291, in _create_socket
+    sock = IMAP4._create_socket(self)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 289, in _create_socket
+    return socket.create_connection((host, self.port))
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "get_email_imap.py", line 123, in <module>
+    email_content = load_email((username, password, 1))
+  File "get_email_imap.py", line 85, in load_email
+    conn = login_email(username, password)
+  File "get_email_imap.py", line 13, in login_email
+    conn = imaplib.IMAP4_SSL(port='993', host='imap.exmail.qq.com')
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1288, in __init__
+    IMAP4.__init__(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 198, in __init__
+    self.open(host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1301, in open
+    IMAP4.open(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 299, in open
+    self.sock = self._create_socket()
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1291, in _create_socket
+    sock = IMAP4._create_socket(self)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 289, in _create_socket
+    return socket.create_connection((host, self.port))
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "get_email_imap.py", line 119, in <module>
+    email_content = load_email((username, password, 1))
+  File "get_email_imap.py", line 82, in load_email
+    conn = login_email(username, password)
+  File "get_email_imap.py", line 11, in login_email
+    conn = imaplib.IMAP4_SSL(port='993', host='imap.exmail.qq.com')
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1288, in __init__
+    IMAP4.__init__(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 198, in __init__
+    self.open(host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1301, in open
+    IMAP4.open(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 299, in open
+    self.sock = self._create_socket()
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1291, in _create_socket
+    sock = IMAP4._create_socket(self)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 289, in _create_socket
+    return socket.create_connection((host, self.port))
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "get_email_imap.py", line 119, in <module>
+    email_content = load_email((username, password, 1))
+  File "get_email_imap.py", line 82, in load_email
+    conn = login_email(username, password)
+  File "get_email_imap.py", line 11, in login_email
+    conn = imaplib.IMAP4_SSL(port='993', host='imap.exmail.qq.com')
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1288, in __init__
+    IMAP4.__init__(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 198, in __init__
+    self.open(host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1301, in open
+    IMAP4.open(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 299, in open
+    self.sock = self._create_socket()
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1291, in _create_socket
+    sock = IMAP4._create_socket(self)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 289, in _create_socket
+    return socket.create_connection((host, self.port))
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+Traceback (most recent call last):
+  File "get_email_imap.py", line 119, in <module>
+    email_content = load_email((username, password, 1))
+  File "get_email_imap.py", line 82, in load_email
+    conn = login_email(username, password)
+  File "get_email_imap.py", line 11, in login_email
+    conn = imaplib.IMAP4_SSL(port='993', host='imap.exmail.qq.com')
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1288, in __init__
+    IMAP4.__init__(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 198, in __init__
+    self.open(host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1301, in open
+    IMAP4.open(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 299, in open
+    self.sock = self._create_socket()
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1291, in _create_socket
+    sock = IMAP4._create_socket(self)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 289, in _create_socket
+    return socket.create_connection((host, self.port))
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "get_email_imap.py", line 119, in <module>
+    email_content = load_email((username, password, 1))
+  File "get_email_imap.py", line 82, in load_email
+    conn = login_email(username, password)
+  File "get_email_imap.py", line 11, in login_email
+    conn = imaplib.IMAP4_SSL(port='993', host='imap.exmail.qq.com')
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1288, in __init__
+    IMAP4.__init__(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 198, in __init__
+    self.open(host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1301, in open
+    IMAP4.open(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 299, in open
+    self.sock = self._create_socket()
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1291, in _create_socket
+    sock = IMAP4._create_socket(self)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 289, in _create_socket
+    return socket.create_connection((host, self.port))
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 182, in <module>
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 159, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Cambria Math";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:DengX\' at line 15')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("HK2PR03MB50443585218A5A296D728238ABEC0@HK2PR03MB5044.apcprd03.prod.outlook.com","","wanghuixiangkivet@Outlook.com","webmaster@taptap.com","2020-02-24 03:48:07+00:00","经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+
+发送自 Windows 10 版邮件<https://go.microsoft.com/fwlink/?LinkId=550986>应用
+
+^^^^^^^^
+
+
+
+<!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:DengXian;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+/* Page Definitions */
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+
+
+经常接到一个骚扰电话，电话那边说是我的手游顾问，今天又接到了，出于好奇我去搜了一下，才发现是因为在taptap上预约了手游的原因导致的，你们taptap这么大的一个平台，居然还会泄露用户的个人信息，我真的是吐了。taptap是个好平台，但你们的这种行为真的让人很不爽，好想骂你们几句，可惜我这个邮件你们可能看都不会看到，发个牢骚玩，去你ma的！
+ 
+发送自 Windows 10 版邮件应用
+ 
+
+
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "get_email_imap.py", line 119, in <module>
+    email_content = load_email((username, password, 1))
+  File "get_email_imap.py", line 82, in load_email
+    conn = login_email(username, password)
+  File "get_email_imap.py", line 11, in login_email
+    conn = imaplib.IMAP4_SSL(port='993', host='imap.exmail.qq.com')
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1288, in __init__
+    IMAP4.__init__(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 198, in __init__
+    self.open(host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1301, in open
+    IMAP4.open(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 299, in open
+    self.sock = self._create_socket()
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1291, in _create_socket
+    sock = IMAP4._create_socket(self)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 289, in _create_socket
+    return socket.create_connection((host, self.port))
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+Traceback (most recent call last):
+  File "get_email_imap.py", line 119, in <module>
+    email_content = load_email((username, password, 1))
+  File "get_email_imap.py", line 82, in load_email
+    conn = login_email(username, password)
+  File "get_email_imap.py", line 11, in login_email
+    conn = imaplib.IMAP4_SSL(port='993', host='imap.exmail.qq.com')
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1288, in __init__
+    IMAP4.__init__(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 198, in __init__
+    self.open(host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1301, in open
+    IMAP4.open(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 299, in open
+    self.sock = self._create_socket()
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1291, in _create_socket
+    sock = IMAP4._create_socket(self)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 289, in _create_socket
+    return socket.create_connection((host, self.port))
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "get_email_imap.py", line 119, in <module>
+    email_content = load_email((username, password, 1))
+  File "get_email_imap.py", line 82, in load_email
+    conn = login_email(username, password)
+  File "get_email_imap.py", line 11, in login_email
+    conn = imaplib.IMAP4_SSL(port='993', host='imap.exmail.qq.com')
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1288, in __init__
+    IMAP4.__init__(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 198, in __init__
+    self.open(host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1301, in open
+    IMAP4.open(self, host, port)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 299, in open
+    self.sock = self._create_socket()
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 1291, in _create_socket
+    sock = IMAP4._create_socket(self)
+  File "/Users/taptap/anaconda3/lib/python3.7/imaplib.py", line 289, in _create_socket
+    return socket.create_connection((host, self.port))
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/taptap/anaconda3/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'2386423634"<2386423634@qq.com>发送时间: 2020年1月30日(周四) 中午11:01\' at line 24')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "get_email_imap.py", line 195, in <module>
+    flag = insert_email(idx=idx)
+  File "get_email_imap.py", line 182, in insert_email
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 152, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 399, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'2386423634"<2386423634@qq.com>发送时间: 2020年1月30日(周四) 中午11:01\' at line 24')
+[SQL: insert into user_advise_email (email_id,subject,from_email,to_email,receive_date,content) values ("tencent_93535DA7162E723E95F9F39FD0280C674808@qq.com","回复：回帖bug","2386423634@qq.com","webmaster@taptap.com","2020-02-29 17:00:52+08:00","你们就这态度?一个月都不回复，tap的客服果然名不虚传。
+
+
+---原始邮件---
+发件人: &quot;2386423634&quot;<2386423634@qq.com&gt;
+发送时间: 2020年1月30日(周四) 中午11:01
+收件人: &quot;webmaster&quot;<webmaster@taptap.com&gt;;
+主题: 回帖bug
+
+
+请描述你的反馈：
+我用第一个账号回帖，用第&#x4E8C;个账号去查看根本没有第一个账号回帖的内容，这怎么回事?
+
+
+
+
+请放心，以下信息仅用于开发人员复现问题使用：
+TapTap ID：2426467
+TapTap 版本：2.4.0(608)
+IP：118.29.190.166
+LOC：CN
+LANGUAGE：zh_CN
+设备型号：MI 8
+安卓版本：28^^^^^^^^你们就这态度?一个月都不回复，tap的客服果然名不虚传。---原始邮件---发件人: "2386423634"<2386423634@qq.com>发送时间: 2020年1月30日(周四) 中午11:01收件人: "webmaster"<webmaster@taptap.com>;主题: 回帖bug请描述你的反馈：我用第一个账号回帖，用第二个账号去查看根本没有第一个账号回帖的内容，这怎么回事?请放心，以下信息仅用于开发人员复现问题使用：TapTap ID：2426467TapTap 版本：2.4.0(608)IP：118.29.190.166LOC：CNLANGUAGE：zh_CN设备型号：MI 8安卓版本：28
+")]
+(Background on this error at: http://sqlalche.me/e/f405)
+Traceback (most recent call last):
+  File "get_email_imap.py", line 195, in <module>
+    flag = insert_email(idx=idx)
+  File "get_email_imap.py", line 182, in insert_email
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 152, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1468, in _handle_dbapi_exception
+    util.reraise(*exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 154, in reraise
+    raise value
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 168, in execute
+    query = self.mogrify(query, args)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 147, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character ';' (0x3b) at index 504
+Traceback (most recent call last):
+  File "get_email_imap.py", line 195, in <module>
+    flag = insert_email(idx=idx)
+  File "get_email_imap.py", line 182, in insert_email
+    mysql.execute_sql(insert_sql)
+  File "get_email_imap.py", line 152, in execute_sql
+    res = self.engine.execute(sql)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2166, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1155, in _execute_text
+    parameters,
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1468, in _handle_dbapi_exception
+    util.reraise(*exc_info)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 154, in reraise
+    raise value
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+    cursor, statement, parameters, context
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 168, in execute
+    query = self.mogrify(query, args)
+  File "/Users/taptap/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py", line 147, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character '?' (0x95ea) at index 268
+/bin/sh: /Users/taptap/Documents/python_project/email_cluster/run_update_email.sh: Operation not permitted
+/bin/sh: /Users/taptap/Documents/python_project/email_cluster/run_update_email.sh: Operation not permitted
+/bin/zsh: can't open input file: /Users/taptap/Documents/python_project/email_cluster/run_update_email.sh
+/bin/zsh: can't open input file: /Users/taptap/Documents/python_project/email_cluster/run_update_email.zsh
+/bin/zsh: can't open input file: /Users/taptap/Documents/python_project/email_cluster/run_update_email.zsh
+/var/run/run_update_email.zsh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/var/run/run_update_email.zsh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/var/run/run_update_email.zsh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/var/run/run_job/run_update_email.zsh:4: permission denied: /var/run/run_job/log
+/var/run/run_job/run_update_email.zsh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/var/run/run_job/run_update_email.zsh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/var/run/run_job/run_update_email.zsh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/var/run/run_job/run_update_email.zsh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/var/run/run_job/run_update_email.zsh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/var/run/run_job/run_update_email.zsh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/var/run/run_job/run_update_email.sh: line 4: /Users/taptap/Documents/python_project/email_cluster/log: Operation not permitted
+/var/run/run_job/run_update_email.sh: line 4: /Users/taptap/Documents/python_project/email_cluster/log: Operation not permitted
+/var/run/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
+/Library/LaunchAgents/run_job/run_update_email.sh:4: operation not permitted: /Users/taptap/Documents/python_project/email_cluster/log
